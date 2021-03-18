@@ -21,7 +21,7 @@ set expandtab
 set smartindent
 set autoindent
 set laststatus=0
-set number
+set relativenumber
 set cursorline
 set background=dark
 set showtabline=2
@@ -32,3 +32,4 @@ set updatetime=300
 set timeoutlen=500
 set formatoptions-=cro
 set clipboard=unnamedplus
+

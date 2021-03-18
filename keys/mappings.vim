@@ -1,3 +1,7 @@
+nnoremap <leader>am :vsplit ~/.config/nvim/keys/mappings.vim <cr>
+nnoremap <leader>sm :source ~/.config/nvim/keys/mappings.vim <cr>
+
+
 "
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
@@ -41,6 +45,14 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
+
+
+" close window 
+nnoremap <silent> <leader>wc <C-w>c
+
+" close buffer 
+nnoremap <silent> <leader>bd :bd<CR>
+nnoremap <silent> <leader>bs :w<CR>
 
 
 
