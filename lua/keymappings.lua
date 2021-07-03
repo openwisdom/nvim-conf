@@ -21,9 +21,14 @@ vim.api.nvim_set_keymap('v', '>', '>gv', { noremap = true, silent = true })
 -- Tab switch 
 vim.api.nvim_set_keymap('n', '<TAB>', ':bnext<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<S-TAB>', ':bprevious<CR>', { noremap = true, silent = true })
--- Tab complete
---vim.api.nvim_set_keymap('i', '<expr><TAB>', 'pumvisible() ? \"\\<C-n>\" : \"\\<TAB>\"', { noremap = true, silent = true })
---
+
 -- move selected line / block of text in visual mode
 vim.api.nvim_set_keymap('x', 'K', ':move \'<-2<CR>gv-gv', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('x', 'J', ':move \'>+1<CR>gv-gv', { noremap = true, silent = true })
+
+-- Tab complete
+-- function _G.smart_tab()
+    -- return vim.fn.pumvisible() == 1 and [[\<C-n>]] or [[\<Tab>]]
+-- end
+-- vim.api.nvim_set_keymap('i', '<Tab>', 'v:lua.smart_tab()', {expr = true, noremap = true})
+-- vim.api.nvim_set_keymap('i', '<TAB>', 'pumvisible() ? \"\\<C-n>\" : \"\\<TAB>\"', { expr = true, noremap = true, silent = true })
