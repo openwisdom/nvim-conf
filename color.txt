@@ -1,0 +1,82 @@
+
+
+original colorscheme
+let s:yellow     = '#e3d18a'
+let s:peach      = '#ffcb8b'
+let s:tan        = '#ecc48d'
+let s:orange     = '#f78c6c'
+let s:red        = '#fc514e'
+let s:watermelon = '#ff5874'
+let s:violet     = '#c792ea'
+let s:purple     = '#ae81ff'
+let s:indigo     = '#5e97ec'
+let s:blue       = '#82aaff'
+let s:turquoise  = '#7fdbca'
+let s:emerald    = '#21c7a8'
+let s:green      = '#a1cd5e'
+
+
+
+
+let s:emerald    = '#199a82'
+'#278b79'
+'#58d0ba'
+'#7fdbca'
+let s:yellow     = '#e3d18a'
+let s:yellow     = '#cdae32'
+
+let s:peach      = '#ffcb8b'
+let s:peach      = '#ff981a'
+let s:tan        = '#ecc48d'
+let s:tan        = '#da8f25'
+let s:orange     = '#f78c6c'
+let s:orange     = '#f2420d'
+
+
+let s:orange     = '#1d2u21'
+
+
+'#1d2021'
+
+
+
+
+
+
+
+
+
+
+
+" GUI color definitions
+let g:base16_gui00 = "#1d2021"
+let s:gui01        = "#3c3836"
+let g:base16_gui01 = "#3c3836"
+let s:gui02        = "#504945"
+let g:base16_gui02 = "#504945"
+let s:gui03        = "#665c54"
+let g:base16_gui03 = "#665c54"
+let s:gui04        = "#bdae93"
+let g:base16_gui04 = "#bdae93"
+let s:gui05        = "#d5c4a1"
+let g:base16_gui05 = "#d5c4a1"
+let s:gui06        = "#ebdbb2"
+let g:base16_gui06 = "#ebdbb2"
+let s:gui07        = "#fbf1c7"
+let g:base16_gui07 = "#fbf1c7"
+let s:gui08        = "#fb4934"
+let g:base16_gui08 = "#fb4934"
+let s:gui09        = "#fe8019"
+let g:base16_gui09 = "#fe8019"
+let s:gui0A        = "#fabd2f"
+let g:base16_gui0A = "#fabd2f"
+let s:gui0B        = "#b8bb26"
+let g:base16_gui0B = "#b8bb26"
+let s:gui0C        = "#8ec07c"
+let g:base16_gui0C = "#8ec07c"
+let s:gui0D        = "#83a598"
+let g:base16_gui0D = "#83a598"
+let s:gui0E        = "#d3869b"
+let g:base16_gui0E = "#d3869b"
+let s:gui0F        = "#d65d0e"
+let g:base16_gui0F = "#d65d0e"

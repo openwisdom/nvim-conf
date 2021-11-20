@@ -3,6 +3,7 @@
 require('plugins')
 require('keymappings')
 require('settings')
+require('nv-tree')
 require('nv-lsp')
 require('nv-completion')
 require('nv-lua-ls')

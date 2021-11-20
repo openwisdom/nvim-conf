@@ -12,7 +12,12 @@ end
 return require('packer').startup(function()
   -- Packer can manage itself as an optional plugin
   use {'wbthomason/packer.nvim', opt = false}
-  use 'kyazdani42/nvim-tree.lua'
+  use 'kyazdani42/nvim-web-devicons'
+  use {
+      'kyazdani42/nvim-tree.lua',
+      --[[ requires = 'kyazdani42/nvim-web-devicons',
+      config = function() require'nvim-tree'.setup {} end ]]
+  }
   -- language server
   use 'neovim/nvim-lspconfig'
   -- code action lightbulble
@@ -31,7 +36,6 @@ return require('packer').startup(function()
   use 'nvim-treesitter/nvim-treesitter-textobjects'
   use 'norcalli/nvim-colorizer.lua'
   use 'bluz71/vim-nightfly-guicolors'
-  use 'kyazdani42/nvim-web-devicons'
   use 'romgrk/barbar.nvim'
   use 'glepnir/galaxyline.nvim'
   use 'b3nj5m1n/kommentary'
